@@ -1,4 +1,40 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+
+ul li {
+    background-color: rgb(168, 168, 168);
+    /* border: 1px red solid; */
+    list-style: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+ul {
+    display: flex;
+    border: 12rem;
+    padding-right: 2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.my-name {
+    font-size: 7rem;
+    margin: 2rem;
+    font-family: "Tangerine", sans-serif;
+    padding-left: 2rem;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 234);
+    /* border: 1px red solid; */
 }
